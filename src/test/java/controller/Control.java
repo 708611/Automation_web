@@ -1,8 +1,5 @@
 package controller;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import BusinessComponents.BusinessLogic;
 
 public class Control {
@@ -39,11 +36,10 @@ public class Control {
 		BusinessLogic.selectLanguage();
 		BusinessLogic.takeScreenShot(6);
 		
-		
+		}
 		
 		
 		
 
-	}
 
 }
